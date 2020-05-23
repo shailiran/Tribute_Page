@@ -3,4 +3,4 @@ A tribute page dedicated to Leonardo DiCaprio made for freeCodeCamp project subm
 
 This page is build using plain HTML and CSS. There's no JavaScript involved. Below is a Screenshot of the page.
 
-<img src="path/to/images">
+![](images/screencapture.png)
