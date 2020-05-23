@@ -1,0 +1,150 @@
+<html>
+    <style>
+        *{font-family: "Century Gothic";}
+        body{
+            background: black;
+        }
+        #title{
+            font-family: "Bradley Hand ITC", cursive !important;
+            text-align: center;
+            color: rgb(226, 240, 217);
+            font-size: 6rem;
+        }
+        #quote{
+            text-align: center;
+            color: rgb(226, 240, 217);
+            font-size: 1.5rem;
+            margin: 0 auto;
+            max-width: 50%;
+            max-height: 50%;
+        }
+        #img-div{
+            display: block; 
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #image{
+            border-radius: 5px;
+            align-self: center;
+            max-width: 50%;
+            max-height: 50%;
+        }
+        
+        #img-caption{
+            text-align: center;
+            color: white;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        #tribute-info{
+            color: white;
+            font-size: 1.2rem;
+            display: block; 
+            margin: 0 auto;
+            width: 60%;
+        }
+
+        .youtube-links{
+            background: rgb(127, 127, 127);
+            display: block; 
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            position: relative;
+            
+        }
+        #movies{
+            color: white;
+            font-size: 1.2rem;
+            align-self: center;
+            max-width: 50%;
+            max-height: 50%;
+            margin: 0 auto;
+        }
+        .iframe-container{
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            display: inline-block;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        #caption{
+            color:white;
+        }
+        #tribute-link{
+            color: rgb(226, 240, 217);
+            font-size: 1rem;
+            display: block; 
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        @media screen and (max-width: 1500px) {
+            .youtube-links{
+                height: auto;
+            }
+        }
+
+        @media screen and (min-width: 1500px) {
+            .youtube-links{
+                height: 70%;
+            }
+        }
+
+    </style>
+
+    <head>
+        <title>Leonardo DiCaprio Tribute Page</title>
+    </head>
+
+    <body id="main">
+        <br>
+        <div>
+            <h1 id="title">Leonardo DiCaprio</h1>
+            <p id="quote"><b>“Climate change is real.</b> It is happening right now, it is the most urgent
+             threat facing our entire species and we need to work collectively together
+             and stop procrastinating.”<br><br><br><br>
+            </p>
+        </div>
+        
+
+        <div id="img-div">
+            <img src="resources/leonardo_dicaprio1.jpg" alt="Leonardo DiCaprio" id="image">
+            <h3 id="img-caption">Leonardo DiCaprio, gettyImages</h3><br><br><br><br>
+        </div>
+
+        <div id="tribute-info" class="tribute">
+            <ul>
+                <li>DiCaprio is identified as one of the most active celebrities in the climate change movement.</li><br>
+                <li>On 1998 he founded his foundation, aptly named the Leonardo DiCaprio Foundation. Although concerned with all areas of the environment, it focuses on global warming, preserving Earth's biodiversity and supporting renewable energy.</li><br>
+                <li>A benefit "11th Hour" fine art auction he organized in 2013, raised nearly $40 million for his foundation. It became the world's highest-grossing environmental charity event ever held.</li><br>
+                <li>In 2014, he was appointed as a United Nations representative on climate change, and later that year he made an opening statement to members of the UN Climate Summit.</li><br>
+                <li>He again spoke at the UN in April 2016 prior to the signing of the Paris Climate Change Agreement.</li><br>
+                <li>In 2019, DiCaprio’s environmental NGO Earth Alliance has pledged $5 million in order to help protect the Amazon after fires destroyed large parts of the rainforest in July and August of that year.</li><br>
+            </ul><br><br><br>
+        </div>
+
+        <div class="youtube-links" ><br><br>
+            <p id="movies">DiCaprio also produced, hosted, and narrated the documentary Before the Flood about climate change,
+                 and narrated the documentary Ice on Fire about global warming.</p><br><br><br>
+            <div class="iframe-container">
+                <figcaption id="caption">BEFORE THE FLOOD - Official Trailer</figcaption><br>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/D9xFFyUOpXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="iframe-container"><figcaption id="caption">ICE ON FIRE - Official Trailer</figcaption><br>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/Elf0RFBhr8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div><br>
+        </div>
+
+        <div id="tribute-link">
+            <p>You can find more information about Leonardo DiCaprio on his <a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio" target="_blank" style="color:rgb(226, 240, 217)">wikipedia page</a>.</p>
+        </div>
+        
+
+    </body>
+</html>
